@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <!-- Banner photo: NMR sample tubes — sciency, no people -->
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/nmr-tubes.jpg' | relative_url }}'); aspect-ratio: 1920 / 538;">
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/nmr-tubes.jpg' | relative_url }}'); aspect-ratio: 1920 / 353;">
   <div class="wrap">
     <h1>Projects</h1>
   </div>
