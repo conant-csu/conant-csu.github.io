@@ -4,11 +4,8 @@ title: People
 permalink: /people/
 ---
 
-<!-- TODO: temporary solid-color hero — laboratory-high-five.jpg pulled because a
-     lab coat in it has a visible third-party logo patch that can't be reliably
-     cropped out (background-size:cover only crops vertically here, so the full
-     width, including the patch, is always in frame). Needs a replacement photo. -->
-<div class="hero">
+<!-- Banner photo: full lab team under the fall-leaves tree near the building, cropped to faces -->
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/team-fall-leaves.jpg' | relative_url }}');">
   <div class="wrap">
     <h1>Meet Our Team</h1>
   </div>
