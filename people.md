@@ -5,7 +5,7 @@ permalink: /people/
 ---
 
 <!-- Banner photo: full lab team under the fall-leaves tree near the building, cropped to faces -->
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/team-fall-leaves.jpg' | relative_url }}');">
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/team-fall-leaves.jpg' | relative_url }}'); aspect-ratio: 1920 / 527;">
   <div class="wrap">
     <h1>Meet Our Team</h1>
   </div>

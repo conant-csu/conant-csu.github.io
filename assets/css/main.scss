@@ -82,12 +82,27 @@ a:hover { text-decoration: underline; }
   background-size: cover;
   background-position: center;
   position: relative;
+  /* Match the container's shape to the photo's own crop (set per-page via an
+     inline `aspect-ratio`) so background-size:cover has little or nothing to
+     crop, instead of a fixed short height that crops unpredictably (a lot on
+     wide screens, a little on narrow ones) depending on viewport width. */
+  padding: 0;
+  min-height: 160px;
+  max-height: 460px;
+  display: flex;
+  align-items: center;
 }
+.hero.with-image .wrap { width: 100%; }
 .hero.with-image.hero-sky {
-  background-position: center 25%; /* keep the sky/text zone dominant on the horizon-style Home photo */
-}
-.hero.with-image.hero-top {
-  background-position: center 15%; /* keep the high-five (near the top of the frame) in view on narrow/cropped viewports */
+  /* Home's photo is an atmospheric backdrop, not something with must-see
+     content pinned to an exact spot — keep it on the simple fixed-height
+     treatment with a sky-biased crop instead of matching its aspect ratio. */
+  aspect-ratio: unset;
+  padding: 64px 0;
+  display: block;
+  min-height: 0;
+  max-height: none;
+  background-position: center 25%;
 }
 .hero.with-image::before {
   content: "";

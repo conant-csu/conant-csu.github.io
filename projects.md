@@ -4,7 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/field-cropped.jpg' | relative_url }}');">
+<!-- Banner photo: NMR sample tubes — sciency, no people -->
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/nmr-tubes.jpg' | relative_url }}'); aspect-ratio: 1920 / 960;">
   <div class="wrap">
     <h1>Projects</h1>
   </div>

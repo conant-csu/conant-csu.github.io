@@ -4,7 +4,7 @@ title: Mission
 permalink: /mission/
 ---
 
-<div class="hero">
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/field-cropped.jpg' | relative_url }}'); aspect-ratio: 1920 / 904;">
   <div class="wrap">
     <h1>Mission</h1>
   </div>
