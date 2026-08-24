@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <!-- Hero photo: "Expansive Green Field Under Blue Sky Landscape" by Sergej (@strannik-sk), Pexels (free license, no attribution required) -->
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/horizon-field.jpg' | relative_url }}');">
+<div class="hero with-image hero-sky" style="background-image: url('{{ '/assets/images/banners/horizon-field.jpg' | relative_url }}');">
   <div class="wrap">
     <h1>Climate Solutions Lab</h1>
     <p class="subhead">Colorado State University | Department of Ecosystem Science and Sustainability</p>

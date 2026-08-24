@@ -80,8 +80,11 @@ a:hover { text-decoration: underline; }
 }
 .hero.with-image {
   background-size: cover;
-  background-position: center 25%; /* keep the sky/text zone dominant on horizon-style photos */
+  background-position: center;
   position: relative;
+}
+.hero.with-image.hero-sky {
+  background-position: center 25%; /* keep the sky/text zone dominant on the horizon-style Home photo */
 }
 .hero.with-image::before {
   content: "";
@@ -153,8 +156,8 @@ main h2, main h3 { color: var(--moss-dark); }
   margin-top: 16px;
 }
 .partner-logos img {
-  max-height: 72px;
-  max-width: 180px;
+  max-height: 110px;
+  max-width: 260px;
   object-fit: contain;
 }
 
@@ -189,6 +192,17 @@ main h2, main h3 { color: var(--moss-dark); }
   object-fit: cover;
   display: block;
 }
+.person-photo-pending {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--border);
+  color: var(--ink-soft);
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+}
 .person-card .person-name {
   font-weight: 600;
   margin-top: 12px;
@@ -197,6 +211,17 @@ main h2, main h3 { color: var(--moss-dark); }
   color: var(--ink-soft);
   font-size: 0.9rem;
   padding: 0 12px;
+}
+.person-card .person-note {
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-style: italic;
+  margin-top: 2px;
+}
+.person-card .person-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.82rem;
 }
 .people-list {
   list-style: none;

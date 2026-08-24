@@ -4,7 +4,8 @@ title: People
 permalink: /people/
 ---
 
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/Team-Laboratory-2.jpg' | relative_url }}');">
+<!-- Banner photo: "Laboratory High Five" — CSL lab photo, edited by Greg -->
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/laboratory-high-five.jpg' | relative_url }}');">
   <div class="wrap">
     <h1>Meet Our Team</h1>
   </div>
@@ -25,16 +26,25 @@ permalink: /people/
   <div class="people-grid">
     {% for m in g.members %}
     <div class="person-card">
+      {% if m.photo %}
       <img src="{{ m.photo | relative_url }}" alt="{{ m.name }}">
+      {% else %}
+      <div class="person-photo-pending" aria-hidden="true">{{ m.name | slice: 0 }}</div>
+      {% endif %}
       <div class="person-name">{{ m.name }}</div>
       <div class="person-role">{{ m.role }}</div>
+      {% if m.photo == nil %}<div class="person-note">Headshot pending</div>{% endif %}
+      {% if m.scholar_url %}<a class="person-link" href="{{ m.scholar_url }}" target="_blank" rel="noopener">{{ m.scholar_label | default: "Google Scholar" }}</a>{% endif %}
     </div>
     {% endfor %}
   </div>
   {% else %}
   <ul class="people-list">
     {% for m in g.members %}
-    <li><strong>{{ m.name }}</strong>{% if m.role %} — {{ m.role }}{% endif %}</li>
+    <li>
+      <strong>{{ m.name }}</strong>{% if m.role %} — {{ m.role }}{% endif %}
+      {% if m.scholar_url %} · <a href="{{ m.scholar_url }}" target="_blank" rel="noopener">{{ m.scholar_label | default: "Google Scholar" }}</a>{% endif %}
+    </li>
     {% endfor %}
   </ul>
   {% endif %}

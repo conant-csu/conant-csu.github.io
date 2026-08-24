@@ -3,21 +3,29 @@
     - name: Rich Conant
       role: "Interim Dean, Warner College of Natural Resources; Professor, Ecosystem Science and Sustainability"
       photo: /assets/images/headshots/Rich_Conant.jpg
+      scholar_url: "https://scholar.google.com/citations?user=HKQacK0AAAAJ&hl=en&oi=ao"
     - name: Claudia Boot
-      role: "Associate Research Professor, Department of Chemistry"
+      role: "Associate Research Professor, Department of Chemistry; Analytical Resources Core (ARC)"
       photo: /assets/images/headshots/Claudia_Boot.jpg
+      scholar_url: "https://scholar.google.com/citations?hl=en&user=ogBeXzUAAAAJ"
     - name: James Henriksen
-      role: "Research Scientist"
+      role: "Research Scientist, Natural Resource Ecology Laboratory"
       photo: /assets/images/headshots/James_Henriksen.jpg
+      scholar_url: "https://scholar.google.com/citations?hl=en&user=jExwRwsAAAAJ"
 
 - group: Staff
   members:
     - name: Fernanda Oliveira
       role: "Research Scientist"
       photo: /assets/images/headshots/Fernanda_Oliveira.jpg
+      scholar_url: "https://www.escavador.com/sobre/6441873/fernanda-cristina-caparelli-de-oliveira"
+      scholar_label: "Publications"
     - name: Greg McKittrick
       role: "Research Associate"
       photo: /assets/images/headshots/GregMcKittrick.jpg
     - name: Eliza Walthers
       role: "Research Associate"
-      photo: /assets/images/headshots/eliza.png
+      photo: /assets/images/headshots/eliza.jpg
+      scholar_url: "https://scholar.google.com/citations?hl=en&user=CDFYFXgAAAAJ"
+    - name: Tu Nguyen
+      role: "Graduate Research Assistant"
