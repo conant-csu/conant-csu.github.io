@@ -86,6 +86,9 @@ a:hover { text-decoration: underline; }
 .hero.with-image.hero-sky {
   background-position: center 25%; /* keep the sky/text zone dominant on the horizon-style Home photo */
 }
+.hero.with-image.hero-top {
+  background-position: center 15%; /* keep the high-five (near the top of the frame) in view on narrow/cropped viewports */
+}
 .hero.with-image::before {
   content: "";
   position: absolute;

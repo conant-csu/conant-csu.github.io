@@ -5,7 +5,7 @@ permalink: /people/
 ---
 
 <!-- Banner photo: "Laboratory High Five" — CSL lab photo, edited by Greg -->
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/laboratory-high-five.jpg' | relative_url }}');">
+<div class="hero with-image hero-top" style="background-image: url('{{ '/assets/images/banners/laboratory-high-five.jpg' | relative_url }}');">
   <div class="wrap">
     <h1>Meet Our Team</h1>
   </div>
