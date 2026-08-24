@@ -15,15 +15,15 @@ permalink: /
 
 <div class="wrap">
 
-### Our Mission
+<h3>Our Mission</h3>
 
-We pioneer innovative solutions for climate change mitigation through collaborative scientific research and discovery using biological systems in soil and agriculture.
+<p>We pioneer innovative solutions for climate change mitigation through collaborative scientific research and discovery using biological systems in soil and agriculture.</p>
 
-[Read our full mission →]({{ '/mission/' | relative_url }})
+<p><a href="{{ '/mission/' | relative_url }}">Read our full mission →</a></p>
 
-### What We Do
+<h3>What We Do</h3>
 
-We aim to develop scalable, high-quality, and cost-effective climate solutions for reducing greenhouse gas emissions and removing carbon dioxide from the atmosphere. Our approach prioritizes sustainability and ecological health.
+<p>We aim to develop scalable, high-quality, and cost-effective climate solutions for reducing greenhouse gas emissions and removing carbon dioxide from the atmosphere. Our approach prioritizes sustainability and ecological health.</p>
 
 <ul class="pillars">
   <li>Learning from Soil Organisms</li>

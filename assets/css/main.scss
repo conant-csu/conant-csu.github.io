@@ -87,12 +87,15 @@ a:hover { text-decoration: underline; }
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(44, 68, 51, 0.72);
+  /* Light, neutral tint only — keeps the photo bright. Legibility comes
+     mainly from the text-shadow below, not from darkening the image. */
+  background: rgba(0, 0, 0, 0.15);
 }
 .hero .wrap { position: relative; }
 .hero h1 {
   margin: 0 0 8px;
   font-size: 2.25rem;
+  color: var(--cream);
 }
 .hero .subhead {
   margin: 0 0 20px;
@@ -102,6 +105,11 @@ a:hover { text-decoration: underline; }
   font-style: italic;
   font-size: 1.1rem;
   opacity: 0.95;
+}
+.hero.with-image h1,
+.hero.with-image .subhead,
+.hero.with-image .tagline {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6), 0 1px 3px rgba(0, 0, 0, 0.45);
 }
 
 /* Content */
@@ -145,10 +153,9 @@ main h2, main h3 { color: var(--moss-dark); }
   margin-top: 16px;
 }
 .partner-logos img {
-  max-height: 48px;
-  max-width: 140px;
+  max-height: 72px;
+  max-width: 180px;
   object-fit: contain;
-  filter: grayscale(20%);
 }
 
 .motto {
