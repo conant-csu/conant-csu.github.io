@@ -4,8 +4,11 @@ title: People
 permalink: /people/
 ---
 
-<!-- Banner photo: "Laboratory High Five" — CSL lab photo, edited by Greg -->
-<div class="hero with-image hero-top" style="background-image: url('{{ '/assets/images/banners/laboratory-high-five.jpg' | relative_url }}');">
+<!-- TODO: temporary solid-color hero — laboratory-high-five.jpg pulled because a
+     lab coat in it has a visible third-party logo patch that can't be reliably
+     cropped out (background-size:cover only crops vertically here, so the full
+     width, including the patch, is always in frame). Needs a replacement photo. -->
+<div class="hero">
   <div class="wrap">
     <h1>Meet Our Team</h1>
   </div>
