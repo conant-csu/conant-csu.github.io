@@ -1,0 +1,10 @@
+title: Climate Solutions Lab
+description: Colorado State University | Department of Ecosystem Science and Sustainability
+url: "https://climate-solutions-lab.com"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - README.md

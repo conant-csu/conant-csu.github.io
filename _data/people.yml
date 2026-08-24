@@ -1,0 +1,23 @@
+- group: Faculty Collaborators
+  members:
+    - name: Rich Conant
+      role: "Interim Dean, Warner College of Natural Resources; Professor, Ecosystem Science and Sustainability"
+      photo: /assets/images/headshots/Rich_Conant.jpg
+    - name: Claudia Boot
+      role: "Associate Research Professor, Department of Chemistry"
+      photo: /assets/images/headshots/Claudia_Boot.jpg
+    - name: James Henriksen
+      role: "Research Scientist"
+      photo: /assets/images/headshots/James_Henriksen.jpg
+
+- group: Staff
+  members:
+    - name: Fernanda Oliveira
+      role: "Research Scientist"
+      photo: /assets/images/headshots/Fernanda_Oliveira.jpg
+    - name: Greg McKittrick
+      role: "Research Associate"
+      photo: /assets/images/headshots/GregMcKittrick.jpg
+    - name: Eliza Walthers
+      role: "Research Associate"
+      photo: /assets/images/headshots/eliza.png
