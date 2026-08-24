@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/nesb-sign.jpg' | relative_url }}'); aspect-ratio: 1920 / 599;">
+<div class="hero with-image" style="background-image: url('{{ '/assets/images/banners/nesb-sign.jpg' | relative_url }}'); aspect-ratio: 1920 / 439;">
   <div class="wrap">
     <h1>Contact us</h1>
   </div>
